@@ -3,7 +3,8 @@
 _Bool containsDuplicate(int * nums, int numSize)
 {
     int counter = 0;
-    int temp = nums[0]; 
+    int i1 = 0; 
+    int temp = nums[i1]; 
 
     for (int i = 1; i < numSize; i++)
     {
@@ -19,6 +20,28 @@ _Bool containsDuplicate(int * nums, int numSize)
     }
     else
         return 0;
+    
+    if (counter == 0)
+    {
+        i1++;
+        for (int i = 2; i < numSize; i++)
+        {
+            if (nums[i] == temp)
+            {
+                counter ++;
+            }
+        }
+        if (counter >= 1)
+        {
+            return 1;
+        }
+        else
+        {
+            return 0;
+        }
+        
+    }
+    
 }
 
 
