@@ -16,7 +16,7 @@ class Solution(object):
         if indexes[0] != None:
             valueAddOne = indexes[0]+1
         
-        #elegant printf instead of print
+        #elegant print f-string instead of print
         print(f"[{indexes[0]}, {valueAddOne}]")
 
 #### Testing
