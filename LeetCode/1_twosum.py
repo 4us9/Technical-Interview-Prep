@@ -1,35 +1,34 @@
 class Solution(object):
     def twoSum(self, nums, target):
         indexes = []
-        valueAddOne = -99999
 
         #I want to add the first sum and +1 of that index to see if
         #it equals the target
-
         for i in range(len(nums)):
 
             if ((nums[i] + nums[i+1]) == target):
-                #java
                 indexes.append(i)
+                indexes.append(i+1)
                 break
-    
-        if indexes[0] != None:
-            valueAddOne = indexes[0]+1
-        
-        #elegant print f-string instead of print
-        print(f"[{indexes[0]}, {valueAddOne}]")
+            else:
+                for j in range(len(nums)):
+                    if (nums[i] + nums[j] == target):
+                        indexes.append(i)
+                        indexes.append(j)
+                        break
+        return indexes
 
 #### Testing
 test = Solution()
 nums = [2,7,11,15]
 target = 9
-test.twoSum(nums, target)
+print(test.twoSum(nums, target))
 
 #Test 2
 nums2 = [3,2,4] 
 target2 = 6
 
-test.twoSum(nums2, target2)
+print(test.twoSum(nums2, target2))
 
 #Test 3
 nums3 = [3,3]
@@ -37,4 +36,4 @@ target3 = 6
 
 #Expected Output: [0,1]
 
-test.twoSum(nums3, target3)
+print(test.twoSum(nums3, target3))
