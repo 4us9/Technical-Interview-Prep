@@ -1,1 +1,0 @@
-/*Array Prototype Last in JS Code*/
