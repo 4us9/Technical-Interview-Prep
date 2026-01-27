@@ -13,7 +13,7 @@ Topics from [Neetcode.io](https://neetcode.io/practice) and Leetcode: Arrays & H
 **Array and Hasing**
 | #   | Name    | Difficulty | Solution              | Time |
 | --- | ------- | ---------- | --------------------- | ---- |
-| 1   | Two Sum | Easy       | [Link](https://github.com/4us9/Technical-Interview-Prep/blob/main/Neetcode/1_twosum) |   O(n)   |
+| 1   | Two Sum | Easy       | [Link](https://github.com/4us9/Technical-Interview-Prep/blob/main/LeetCode/1_twosum.py) |   O(n)   |
 
 ### 2. Cracking The Coding Interview (6th Ed)
 
