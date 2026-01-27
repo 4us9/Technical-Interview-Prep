@@ -1,23 +1,21 @@
 # Technical-Interview-Prep
-Inspired by Marmik.
 
-This repository is a collection of coding problems that I have solved to prepare for technical (SWE) interviews. 
+This repository is a collection of coding problems that I have solved to prepare for technical (SWE) interviews, and just to solve puzzles.
 
-Questions are completed in Java.
+Questions are completed in Python.
 
 Topics from [Neetcode.io](https://neetcode.io/practice) and Leetcode: Arrays & Hashing, Two Pointers, Sliding Window, Stack, Binary Search, Linked List, Trees, Tries, Heap/Priority Queue, Backtracking, Graphs, 1-D Dynamic Programming (DP), 2-D Dynamic Programming (DP), Greedy, Intervals, Math & Geometry, Bit Manipulation, Matrix, Sorting, and Prefix Sum.
 
 
-### Leetcode
-- update as I go, like a tracker.
- 
+## Order
+### 1. Leetcode NeetCode
 
-| #   | Name    | Difficulty | Solution              | Time | Topic |
-| --- | ------- | ---------- | --------------------- | ---- | ----- |
-| 1   | Two Sum | Easy       | \[Java\](Github Link) |      |       |
+**Array and Hasing**
+| #   | Name    | Difficulty | Solution              | Time |
+| --- | ------- | ---------- | --------------------- | ---- |
+| 1   | Two Sum | Easy       | [Link](https://github.com/4us9/Technical-Interview-Prep/blob/main/Neetcode/_1_twosum) |   O(n)   |
 
-
-### Cracking The Coding Interview (6th Ed)
+### 2. Cracking The Coding Interview (6th Ed)
 
 | #   | Name    | Difficulty | Solution              | Time | Topic |
 | --- | ------- | ---------- | --------------------- | ---- | ----- |
