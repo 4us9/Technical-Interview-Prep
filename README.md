@@ -14,9 +14,11 @@ Topics from [Neetcode.io](https://neetcode.io/practice) and Leetcode: Arrays & H
 | #   | Name    | Difficulty | Solution              | Time |
 | --- | ------- | ---------- | --------------------- | ---- |
 | 1   | Two Sum | Easy       | [Link](https://github.com/4us9/Technical-Interview-Prep/blob/main/LeetCode/1_twosum.py) |   O(n)   |
+| 102 | BFS - Binary Tree | Medium | [Link](https://github.com/4us9/Technical-Interview-Prep/blob/main/LeetCode/102_BFS_BinaryTree.py) | O(n) |
+
 
 ### 2. Cracking The Coding Interview (6th Ed)
 
 | #   | Name    | Difficulty | Solution              | Time | Topic |
 | --- | ------- | ---------- | --------------------- | ---- | ----- |
-| 1   | Big-O Example 1 | Easy       | \[Java\](Github Link) |      |       |
+| 1   | Big-O Example 1 | Easy       | \[Link\](Github Link) |      |       |
